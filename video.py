@@ -9,7 +9,7 @@ from yolo import YOLO
 yolo = YOLO()
 #-------------------------------------#
 #   调用摄像头
-capture=cv2.VideoCapture("drive.mp4")
+capture=cv2.VideoCapture("model_data/drive.mp4")
 #-------------------------------------#
 #capture=cv2.VideoCapture(0)
 fps = 0.0
